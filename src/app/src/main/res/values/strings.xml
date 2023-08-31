@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">TaxiDriver</string>
+    <string name="change_picture">Change picture</string>
+    <string name="profile_picture">Profile picture</string>
+    <string name="name">Name:</string>
+    <string name="surname">Surname:</string>
+    <string name="address">Address:</string>
+    <string name="phoneNumber">Phone Number:</string>
+    <string name="password">Password:</string>
+    <string name="profile">Profile</string>
+    <string name="changeName">change name</string>
+    <string name="changeSurname">change surname</string>
+    <string name="changeAddress">change address</string>
+    <string name="changePhoneNumber">change phone number</string>
+    <string name="changePassword">change password</string>
+    <string name="changeEmail">change email</string>
+    <string name="current_password">Current password:</string>
+    <string name="current_password_input">current password</string>
+    <string name="new_password">New password:</string>
+    <string name="new_password_input">new password</string>
+    <string name="confirm_password">Confirm password:</string>
+    <string name="confirm_password_input">confirm password</string>
+    <string name="confirm_changes">confirm changes</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Drawer open </string>>
+    <string name="drawer_close">Drawer closed </string>
+    <string name="order_again">Order again</string>
+    <string name="favorite_routes">Favorite routes</string>
+    <string name="email">Email:</string>
+    <string name="leaveReview">leave review</string>
+    <string name="reports">Reports</string>
+    <string name="favorites">Favorites</string>
+    <string name="starting_date">starting date</string>
+    <string name="ending_date">ending date</string>
+    <string name="total_number_of_rides">Total number of rides:</string>
+    <string name="total_kilometers">Total kilometers:</string>
+    <string name="total_spent">Total spent:</string>
+    <string name="daily_averages">Daily average:</string>
+    <string name="car">car</string>
+    <string name="location">location</string>
+    <string name="money">money</string>
+    <string name="date">Date:</string>
+    <string name="rides">Rides:</string>
+    <string name="distance">Distance:</string>
+    <string name="spent">Spent:</string>
+    <string name="title_activity_passenger_ride_history">PassengerRideHistoryActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_inbox_driver">InboxActivityDriver</string>
+    <string name="title_activity_driver_account">DriverAccountActivity</string>
+    <string name="comment">Comment:</string>
+    <string name="comment_input">comment</string>
+    <string name="grade">Grade:</string>
+    <string name="grade_input">grade</string>
+    <string name="your_messages">YOUR MESSAGES:</string>
+    <string name="ride">RIDE</string>
+    <string name="support">SUPPORT</string>
+    <string name="panic">PANIC</string>
+    <string name="load">LOAD</string>
+
+</resources>

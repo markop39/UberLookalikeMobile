@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="25dp"
+        app:cardCornerRadius="15dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="25dp"
+    android:layout_marginTop="25dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/left"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:gravity="center"
+        android:orientation="vertical">
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="10dp">
+
+</Space>
+        <TextView
+            android:id="@+id/leftLocation"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Bul. Kralja Petra 15"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/leftTime"
+
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="10:00" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="90dp"
+        android:layout_toRightOf="@id/left"
+        android:foregroundGravity="center"
+        android:src="@drawable/arrow">
+
+    </ImageView>
+
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_toRightOf="@id/left"
+        android:foregroundGravity="center"
+        android:src="@drawable/car">
+
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/right"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:gravity="center"
+        android:layout_toRightOf="@id/arrow"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+
+        </Space>
+        <TextView
+            android:id="@+id/rightLocation"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Bul. Kralja Petra 15"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rightTime"
+
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="10:00" />
+    </LinearLayout>
+
+</RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
